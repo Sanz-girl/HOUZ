@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.container{
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sitenav ul{
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    display: flex;
+}
+.sitenav li{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+}
+.sitenav a{
+    font-size: 14px;
+    margin-right: 80px;
+    text-decoration: none;
+    color: black;
+}
+.sitenav  a:hover{
+    color:red;
+    transition: 0.5;
+}
+.devtonic{
+    margin-top: 20px;
+}
+.main-area{
+    float: left;
+    width: 670px;
+    background: #efefef;
+    margin-right:10px
+}
+.contentarea{
+    float: left;
+    width: 300px;
+}
+.contactform{
+    background: gray;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    float: inline-end;
+}
+label{
+    font-size:13px;
+}
+.contactform:hover{
+    background-color:whitesmoke;
+    text-align: center;   
+    transition: 0.5;
+    color: black; 
+}
+.contactform h1{
+    color: black;
+}
+input{
+    margin-top: 10px;
+    width: 75%;
+}
+.submitbutton{
+    color:whitesmoke;
+    background: brown;
+    font-weight: 500px;
+    font-size: 10px;
+    border-radius: 25px;
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.group:before, .group:after{
+       display: table; 
+       content: "";
+}      
+.group:after{
+    clear: both;
+}
+.group{
+    zoom: 1;
+
+}
